@@ -6,5 +6,6 @@
 #include "scheduler.h"
 
 #include "led_app.h"
+#include "key_app.h"
 
 #endif
