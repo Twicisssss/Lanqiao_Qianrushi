@@ -27,3 +27,5 @@ led_key_lcd_uart_dma\stm32g4xx_hal_pwr.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/st
 led_key_lcd_uart_dma\stm32g4xx_hal_pwr.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
 led_key_lcd_uart_dma\stm32g4xx_hal_pwr.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
 led_key_lcd_uart_dma\stm32g4xx_hal_pwr.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+led_key_lcd_uart_dma\stm32g4xx_hal_pwr.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
+led_key_lcd_uart_dma\stm32g4xx_hal_pwr.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h

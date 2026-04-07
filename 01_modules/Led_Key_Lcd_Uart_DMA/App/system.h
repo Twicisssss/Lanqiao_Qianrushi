@@ -1,5 +1,5 @@
-#ifndef __SYSTEM_H_
-#define __SYSTEM_H_
+#ifndef __SYSTEM_H__
+#define __SYSTEM_H__
 #include "bsp_system.h"
 
 void system_init(void);
