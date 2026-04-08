@@ -1,0 +1,1 @@
+led_key_lcd_uart_dma_adc_iic\startup_stm32g431xx.o: startup_stm32g431xx.s
