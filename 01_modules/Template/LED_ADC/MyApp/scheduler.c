@@ -15,6 +15,13 @@ TaskT SchedulerTasks[]={
 uint8_t task_num=0;
 void scheduler_init(void)
 {
+    LCD_Init();
+    LCD_Clear(Black);
+    LCD_SetBackColor(Black);
+    LCD_SetTextColor(White);
+
+    I2CInit();
+
     task_num=sizeof(SchedulerTasks)/sizeof(TaskT);
 }
 void scheduler_run(void)
