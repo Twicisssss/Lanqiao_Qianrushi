@@ -27,8 +27,8 @@ void lcd_task(void)
     lcd_sprintf(Line6,"Date:%2d-%2d-%2d",date.Year,date.Month,date.Date);
     
     lcd_sprintf(Line7,"PA7pwmout:%2.2f", PA7_pwm_duty);// TIM17_CH1频率
-    lcd_sprintf(Line8,"PB4  Freq:%lu",tim_ic_PB4_val);  // R39频率
-    lcd_sprintf(Line9,"PA15 Freq:%lu",tim_ic_PA15_val);  // R39频率
+    lcd_sprintf(Line8,"PB4  Freq:%5lu",tim_ic_PB4_val);  // R39频率
+    lcd_sprintf(Line9,"PA15 Freq:%5lu",tim_ic_PA15_val);  // R39频率
 }
 
 

@@ -43,9 +43,8 @@ led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ../Core/Inc/usart.h
 led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ../Core/Inc/adc.h
 led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ../Core/Inc/rtc.h
 led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ../Core/Inc/tim.h
-led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ..\App\system.h
-led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ..\App\bsp_system.h
 led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ..\App\scheduler.h
+led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ..\App\bsp_system.h
 led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ..\App\led_app.h
 led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ..\App\key_app.h
 led_key_lcd_uart_dma_adc_iic_rtc_pwm\i2c_hal.o: ..\App\lcd_app.h

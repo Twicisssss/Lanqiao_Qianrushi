@@ -15,7 +15,6 @@ extern TIM_HandleTypeDef htim2;
 extern DMA_HandleTypeDef hdma_tim3_ch1;
 extern DMA_HandleTypeDef hdma_tim2_ch1;
 
-#include "system.h"
 #include "scheduler.h"
 
 #include "led_app.h"
