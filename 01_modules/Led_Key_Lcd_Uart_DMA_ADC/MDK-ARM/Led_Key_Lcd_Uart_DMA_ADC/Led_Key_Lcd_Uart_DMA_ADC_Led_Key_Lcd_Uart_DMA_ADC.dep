@@ -1,6 +1,6 @@
 Dependencies for Project 'Led_Key_Lcd_Uart_DMA_ADC', Target 'Led_Key_Lcd_Uart_DMA_ADC': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (startup_stm32g431xx.s)(0x69D5E77A)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include--pd "__UVISION_VERSION SETA 543" --pd "STM32G431xx SETA 1"--list startup_stm32g431xx.lst --xref -o led_key_lcd_uart_dma_adc\startup_stm32g431xx.o --depend led_key_lcd_uart_dma_adc\startup_stm32g431xx.d)
+F (startup_stm32g431xx.s)(0x69D86904)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include--pd "__UVISION_VERSION SETA 543" --pd "STM32G431xx SETA 1"--list startup_stm32g431xx.lst --xref -o led_key_lcd_uart_dma_adc\startup_stm32g431xx.o --depend led_key_lcd_uart_dma_adc\startup_stm32g431xx.d)
 F (../Core/Src/main.c)(0x69D5EA54)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../App-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="543" -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx-o led_key_lcd_uart_dma_adc\main.o --omf_browse led_key_lcd_uart_dma_adc\main.crf --depend led_key_lcd_uart_dma_adc\main.d)
 I (../Core/Inc/main.h)(0x69D5DE9B)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x6956701E)
@@ -39,8 +39,7 @@ I (../Core/Inc/adc.h)(0x69D5E6C9)
 I (../Core/Inc/dma.h)(0x69D5DE9A)
 I (../Core/Inc/usart.h)(0x69D5DE9A)
 I (../Core/Inc/gpio.h)(0x69D5DE9A)
-I (../App/bsp_system.h)(0x69D5EA11)
-I (../App/system.h)(0x69D5D9F8)
+I (../App/bsp_system.h)(0x69D86918)
 I (../App/scheduler.h)(0x69D5D9F8)
 I (../App/led_app.h)(0x69D5D9F8)
 I (../App/key_app.h)(0x69D5D9F8)
@@ -51,7 +50,7 @@ I (../App/lcd.h)(0x69D5D9F8)
 I (../App/uart_app.h)(0x69D5D9F8)
 I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
 I (../App/adc_app.h)(0x69D5E73B)
-F (../Core/Src/gpio.c)(0x69D5DE9A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../App-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="543" -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx-o led_key_lcd_uart_dma_adc\gpio.o --omf_browse led_key_lcd_uart_dma_adc\gpio.crf --depend led_key_lcd_uart_dma_adc\gpio.d)
+F (../Core/Src/gpio.c)(0x69D86902)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../App-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="543" -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx-o led_key_lcd_uart_dma_adc\gpio.o --omf_browse led_key_lcd_uart_dma_adc\gpio.crf --depend led_key_lcd_uart_dma_adc\gpio.d)
 I (../Core/Inc/gpio.h)(0x69D5DE9A)
 I (../Core/Inc/main.h)(0x69D5DE9B)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x6956701E)
@@ -191,9 +190,8 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
-I (../App/bsp_system.h)(0x69D5EA11)
+I (../App/bsp_system.h)(0x69D86918)
 I (../Core/Inc/adc.h)(0x69D5E6C9)
-I (../App/system.h)(0x69D5D9F8)
 I (../App/scheduler.h)(0x69D5D9F8)
 I (../App/led_app.h)(0x69D5D9F8)
 I (../App/key_app.h)(0x69D5D9F8)
@@ -239,10 +237,9 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
 I (../Core/Inc/stm32g4xx_it.h)(0x69D5E6C9)
-I (../App/bsp_system.h)(0x69D5EA11)
+I (../App/bsp_system.h)(0x69D86918)
 I (../Core/Inc/usart.h)(0x69D5DE9A)
 I (../Core/Inc/adc.h)(0x69D5E6C9)
-I (../App/system.h)(0x69D5D9F8)
 I (../App/scheduler.h)(0x69D5D9F8)
 I (../App/led_app.h)(0x69D5D9F8)
 I (../App/key_app.h)(0x69D5D9F8)
@@ -884,7 +881,7 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
 F (..\App\key_app.c)(0x69D5E275)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../App-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="543" -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx-o led_key_lcd_uart_dma_adc\key_app.o --omf_browse led_key_lcd_uart_dma_adc\key_app.crf --depend led_key_lcd_uart_dma_adc\key_app.d)
 I (..\App\key_app.h)(0x69D5D9F8)
-I (..\App\bsp_system.h)(0x69D5EA11)
+I (..\App\bsp_system.h)(0x69D86918)
 I (../Core/Inc/main.h)(0x69D5DE9B)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x6956701E)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x69D5E6CA)
@@ -920,7 +917,6 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
 I (../Core/Inc/usart.h)(0x69D5DE9A)
 I (../Core/Inc/adc.h)(0x69D5E6C9)
-I (..\App\system.h)(0x69D5D9F8)
 I (..\App\scheduler.h)(0x69D5D9F8)
 I (..\App\led_app.h)(0x69D5D9F8)
 I (..\App\lcd_app.h)(0x69D5D9F8)
@@ -968,7 +964,7 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
 I (..\App\fonts.h)(0x69D5D9F8)
 F (..\App\lcd_app.c)(0x69D5EAD1)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../App-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="543" -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx-o led_key_lcd_uart_dma_adc\lcd_app.o --omf_browse led_key_lcd_uart_dma_adc\lcd_app.crf --depend led_key_lcd_uart_dma_adc\lcd_app.d)
 I (..\App\lcd_app.h)(0x69D5D9F8)
-I (..\App\bsp_system.h)(0x69D5EA11)
+I (..\App\bsp_system.h)(0x69D86918)
 I (../Core/Inc/main.h)(0x69D5DE9B)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x6956701E)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x69D5E6CA)
@@ -1004,7 +1000,6 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
 I (../Core/Inc/usart.h)(0x69D5DE9A)
 I (../Core/Inc/adc.h)(0x69D5E6C9)
-I (..\App\system.h)(0x69D5D9F8)
 I (..\App\scheduler.h)(0x69D5D9F8)
 I (..\App\led_app.h)(0x69D5D9F8)
 I (..\App\key_app.h)(0x69D5D9F8)
@@ -1016,7 +1011,7 @@ I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
 I (..\App\lcd.h)(0x69D5D9F8)
 F (..\App\led_app.c)(0x69D5E267)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../App-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="543" -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx-o led_key_lcd_uart_dma_adc\led_app.o --omf_browse led_key_lcd_uart_dma_adc\led_app.crf --depend led_key_lcd_uart_dma_adc\led_app.d)
 I (..\App\led_app.h)(0x69D5D9F8)
-I (..\App\bsp_system.h)(0x69D5EA11)
+I (..\App\bsp_system.h)(0x69D86918)
 I (../Core/Inc/main.h)(0x69D5DE9B)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x6956701E)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x69D5E6CA)
@@ -1052,7 +1047,6 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
 I (../Core/Inc/usart.h)(0x69D5DE9A)
 I (../Core/Inc/adc.h)(0x69D5E6C9)
-I (..\App\system.h)(0x69D5D9F8)
 I (..\App\scheduler.h)(0x69D5D9F8)
 I (..\App\key_app.h)(0x69D5D9F8)
 I (..\App\lcd_app.h)(0x69D5D9F8)
@@ -1064,7 +1058,7 @@ I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
 I (..\App\adc_app.h)(0x69D5E73B)
 F (..\App\scheduler.c)(0x69D5EA11)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../App-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="543" -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx-o led_key_lcd_uart_dma_adc\scheduler.o --omf_browse led_key_lcd_uart_dma_adc\scheduler.crf --depend led_key_lcd_uart_dma_adc\scheduler.d)
 I (..\App\scheduler.h)(0x69D5D9F8)
-I (..\App\bsp_system.h)(0x69D5EA11)
+I (..\App\bsp_system.h)(0x69D86918)
 I (../Core/Inc/main.h)(0x69D5DE9B)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x6956701E)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x69D5E6CA)
@@ -1100,55 +1094,6 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
 I (../Core/Inc/usart.h)(0x69D5DE9A)
 I (../Core/Inc/adc.h)(0x69D5E6C9)
-I (..\App\system.h)(0x69D5D9F8)
-I (..\App\led_app.h)(0x69D5D9F8)
-I (..\App\key_app.h)(0x69D5D9F8)
-I (..\App\lcd_app.h)(0x69D5D9F8)
-I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
-I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
-I (..\App\lcd.h)(0x69D5D9F8)
-I (..\App\uart_app.h)(0x69D5D9F8)
-I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
-I (..\App\adc_app.h)(0x69D5E73B)
-F (..\App\system.c)(0x69D5D9F8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../App-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="543" -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx-o led_key_lcd_uart_dma_adc\system.o --omf_browse led_key_lcd_uart_dma_adc\system.crf --depend led_key_lcd_uart_dma_adc\system.d)
-I (..\App\system.h)(0x69D5D9F8)
-I (..\App\bsp_system.h)(0x69D5EA11)
-I (../Core/Inc/main.h)(0x69D5DE9B)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x6956701E)
-I (../Core/Inc/stm32g4xx_hal_conf.h)(0x69D5E6CA)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x6956701E)
-I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x6956701C)
-I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x6956701C)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x6956701E)
-I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6956701E)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6956701E)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6956701E)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6956701E)
-I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x6956701C)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6956701E)
-I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h)(0x6956701E)
-I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
-I (../Core/Inc/usart.h)(0x69D5DE9A)
-I (../Core/Inc/adc.h)(0x69D5E6C9)
-I (..\App\scheduler.h)(0x69D5D9F8)
 I (..\App\led_app.h)(0x69D5D9F8)
 I (..\App\key_app.h)(0x69D5D9F8)
 I (..\App\lcd_app.h)(0x69D5D9F8)
@@ -1160,7 +1105,7 @@ I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
 I (..\App\adc_app.h)(0x69D5E73B)
 F (..\App\uart_app.c)(0x69D5E5EF)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../App-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="543" -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx-o led_key_lcd_uart_dma_adc\uart_app.o --omf_browse led_key_lcd_uart_dma_adc\uart_app.crf --depend led_key_lcd_uart_dma_adc\uart_app.d)
 I (..\App\uart_app.h)(0x69D5D9F8)
-I (..\App\bsp_system.h)(0x69D5EA11)
+I (..\App\bsp_system.h)(0x69D86918)
 I (../Core/Inc/main.h)(0x69D5DE9B)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x6956701E)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x69D5E6CA)
@@ -1196,7 +1141,6 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
 I (../Core/Inc/usart.h)(0x69D5DE9A)
 I (../Core/Inc/adc.h)(0x69D5E6C9)
-I (..\App\system.h)(0x69D5D9F8)
 I (..\App\scheduler.h)(0x69D5D9F8)
 I (..\App\led_app.h)(0x69D5D9F8)
 I (..\App\key_app.h)(0x69D5D9F8)
@@ -1206,10 +1150,10 @@ I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
 I (..\App\lcd.h)(0x69D5D9F8)
 I (D:\Software\DevTools\01_Keilv5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
 I (..\App\adc_app.h)(0x69D5E73B)
-F (..\App\bsp_system.h)(0x69D5EA11)()
+F (..\App\bsp_system.h)(0x69D86918)()
 F (..\App\adc_app.c)(0x69D5EA11)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../App-ID:\Software\DevTools\01_Keilv5\Arm\Packs\Keil\STM32G4xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="543" -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx-o led_key_lcd_uart_dma_adc\adc_app.o --omf_browse led_key_lcd_uart_dma_adc\adc_app.crf --depend led_key_lcd_uart_dma_adc\adc_app.d)
 I (..\App\adc_app.h)(0x69D5E73B)
-I (..\App\bsp_system.h)(0x69D5EA11)
+I (..\App\bsp_system.h)(0x69D86918)
 I (../Core/Inc/main.h)(0x69D5DE9B)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x6956701E)
 I (../Core/Inc/stm32g4xx_hal_conf.h)(0x69D5E6CA)
@@ -1245,7 +1189,6 @@ I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h)(0x6956701E)
 I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h)(0x6956701E)
 I (../Core/Inc/usart.h)(0x69D5DE9A)
 I (../Core/Inc/adc.h)(0x69D5E6C9)
-I (..\App\system.h)(0x69D5D9F8)
 I (..\App\scheduler.h)(0x69D5D9F8)
 I (..\App\led_app.h)(0x69D5D9F8)
 I (..\App\key_app.h)(0x69D5D9F8)

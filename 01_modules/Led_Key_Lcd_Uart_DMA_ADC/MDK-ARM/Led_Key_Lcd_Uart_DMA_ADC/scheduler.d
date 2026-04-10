@@ -37,10 +37,9 @@ led_key_lcd_uart_dma_adc\scheduler.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g
 led_key_lcd_uart_dma_adc\scheduler.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
 led_key_lcd_uart_dma_adc\scheduler.o: ../Core/Inc/usart.h
 led_key_lcd_uart_dma_adc\scheduler.o: ../Core/Inc/adc.h
-led_key_lcd_uart_dma_adc\scheduler.o: ..\App\system.h
-led_key_lcd_uart_dma_adc\scheduler.o: ..\App\bsp_system.h
 led_key_lcd_uart_dma_adc\scheduler.o: ..\App\scheduler.h
 led_key_lcd_uart_dma_adc\scheduler.o: ..\App\led_app.h
+led_key_lcd_uart_dma_adc\scheduler.o: ..\App\bsp_system.h
 led_key_lcd_uart_dma_adc\scheduler.o: ..\App\key_app.h
 led_key_lcd_uart_dma_adc\scheduler.o: ..\App\lcd_app.h
 led_key_lcd_uart_dma_adc\scheduler.o: D:\Software\DevTools\01_Keilv5\ARM\ARMCC\Bin\..\include\stdarg.h
