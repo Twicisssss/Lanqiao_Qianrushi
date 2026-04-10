@@ -28,7 +28,7 @@ void scheduler_init(void)
     
     HAL_TIM_PWM_Start(&htim17, TIM_CHANNEL_1);
     pwm_set_duty(PA7_pwm_duty,17);
-    HAL_TIM_IC_Start_DMA(&htim3,TIM_CHANNEL_1,tim_ic_PB4_buf,64);
+//    HAL_TIM_IC_Start_DMA(&htim3,TIM_CHANNEL_1,tim_ic_PB4_buf,64);
     HAL_TIM_IC_Start_DMA(&htim2,TIM_CHANNEL_1,tim_ic_PA15_buf,64);
     
     task_num=sizeof(SchedulerTasks)/sizeof(TaskT);
