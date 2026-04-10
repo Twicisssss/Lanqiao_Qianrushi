@@ -3,7 +3,7 @@
 <title>Static Call Graph - [Led_Key_Lcd\Led_Key_Lcd.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image Led_Key_Lcd\Led_Key_Lcd.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Fri Apr 10 11:23:37 2026
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Fri Apr 10 11:33:21 2026
 <BR><P>
 <H3>Maximum Stack Usage =        176 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -860,14 +860,14 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> scheduler.o(.data)
 </UL>
-<P><STRONG><a name="[9b]"></a>led_disp</STRONG> (Thumb, 94 bytes, Stack size 12 bytes, led_app.o(i.led_disp))
-<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = led_disp
+<P><STRONG><a name="[9b]"></a>led_disp</STRONG> (Thumb, 90 bytes, Stack size 8 bytes, led_app.o(i.led_disp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = led_disp
 </UL>
 <BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_task
 </UL>
 
 <P><STRONG><a name="[54]"></a>led_task</STRONG> (Thumb, 10 bytes, Stack size 4 bytes, led_app.o(i.led_task))
-<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = led_task &rArr; led_disp
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = led_task &rArr; led_disp
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_disp
 </UL>
