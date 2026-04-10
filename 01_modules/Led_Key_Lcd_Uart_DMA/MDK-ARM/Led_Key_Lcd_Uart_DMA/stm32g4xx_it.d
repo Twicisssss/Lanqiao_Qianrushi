@@ -33,9 +33,8 @@ led_key_lcd_uart_dma\stm32g4xx_it.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4
 led_key_lcd_uart_dma\stm32g4xx_it.o: ../Core/Inc/stm32g4xx_it.h
 led_key_lcd_uart_dma\stm32g4xx_it.o: ../App/bsp_system.h
 led_key_lcd_uart_dma\stm32g4xx_it.o: ../Core/Inc/usart.h
-led_key_lcd_uart_dma\stm32g4xx_it.o: ../App/system.h
-led_key_lcd_uart_dma\stm32g4xx_it.o: ../App/bsp_system.h
 led_key_lcd_uart_dma\stm32g4xx_it.o: ../App/scheduler.h
+led_key_lcd_uart_dma\stm32g4xx_it.o: ../App/bsp_system.h
 led_key_lcd_uart_dma\stm32g4xx_it.o: ../App/led_app.h
 led_key_lcd_uart_dma\stm32g4xx_it.o: ../App/key_app.h
 led_key_lcd_uart_dma\stm32g4xx_it.o: ../App/lcd_app.h

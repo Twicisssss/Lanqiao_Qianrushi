@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>Led_Key_Lcd_Uart_Dma</TargetName>
+      <TargetName>Led_Key_Lcd_Uart_DMA</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
@@ -727,11 +727,6 @@
               <FileName>bsp_system.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\App\bsp_system.h</FilePath>
-            </File>
-            <File>
-              <FileName>system.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\App\system.c</FilePath>
             </File>
             <File>
               <FileName>scheduler.c</FileName>

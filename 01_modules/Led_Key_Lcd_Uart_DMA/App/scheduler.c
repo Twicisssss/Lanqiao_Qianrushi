@@ -14,7 +14,6 @@ Task SchedulerTasks[]={
 uint8_t task_num=0;
 void scheduler_init(void)
 {
-    system_init();
     LCD_Init();
     LCD_Clear(Black);
     LCD_SetTextColor(White);

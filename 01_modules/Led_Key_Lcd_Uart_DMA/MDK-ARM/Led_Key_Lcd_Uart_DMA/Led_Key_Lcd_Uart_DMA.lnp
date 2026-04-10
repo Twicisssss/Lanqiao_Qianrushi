@@ -22,7 +22,6 @@
 "led_key_lcd_uart_dma\stm32g4xx_hal_pwr.o"
 "led_key_lcd_uart_dma\stm32g4xx_hal_cortex.o"
 "led_key_lcd_uart_dma\system_stm32g4xx.o"
-"led_key_lcd_uart_dma\system.o"
 "led_key_lcd_uart_dma\scheduler.o"
 "led_key_lcd_uart_dma\led_app.o"
 "led_key_lcd_uart_dma\key_app.o"

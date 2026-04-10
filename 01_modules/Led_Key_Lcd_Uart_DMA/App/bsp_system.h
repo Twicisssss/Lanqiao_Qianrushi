@@ -8,7 +8,6 @@ extern uint16_t uart_rx_index;
 extern uint32_t uart_rx_ticks;
 extern uint8_t uart_rx_dma_buf[128];
 
-#include "system.h"
 #include "scheduler.h"
 
 #include "led_app.h"
