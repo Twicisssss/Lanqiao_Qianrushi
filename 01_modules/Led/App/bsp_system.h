@@ -3,7 +3,6 @@
 
 #include "main.h"
 
-#include "system.h"
 #include "scheduler.h"
 #include "led_app.h"
 

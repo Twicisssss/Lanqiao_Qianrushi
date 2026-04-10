@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32G431xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;../MyApp</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;../App</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -497,42 +497,22 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>MyApp</GroupName>
+          <GroupName>App</GroupName>
           <Files>
-            <File>
-              <FileName>system.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\MyApp\system.c</FilePath>
-            </File>
-            <File>
-              <FileName>system.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\system.h</FilePath>
-            </File>
             <File>
               <FileName>bsp_system.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\MyApp\bsp_system.h</FilePath>
-            </File>
-            <File>
-              <FileName>scheduler.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\MyApp\scheduler.c</FilePath>
-            </File>
-            <File>
-              <FileName>scheduler.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\scheduler.h</FilePath>
+              <FilePath>..\App\bsp_system.h</FilePath>
             </File>
             <File>
               <FileName>led_app.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\MyApp\led_app.c</FilePath>
+              <FilePath>..\App\led_app.c</FilePath>
             </File>
             <File>
-              <FileName>led_app.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\led_app.h</FilePath>
+              <FileName>scheduler.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\App\scheduler.c</FilePath>
             </File>
           </Files>
         </Group>

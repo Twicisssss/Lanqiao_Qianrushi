@@ -1,6 +1,6 @@
-led\led_app.o: ..\MyApp\led_app.c
-led\led_app.o: ..\MyApp\led_app.h
-led\led_app.o: ..\MyApp\bsp_system.h
+led\led_app.o: ..\App\led_app.c
+led\led_app.o: ..\App\led_app.h
+led\led_app.o: ..\App\bsp_system.h
 led\led_app.o: ../Core/Inc/main.h
 led\led_app.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
 led\led_app.o: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -30,7 +30,6 @@ led\led_app.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
 led\led_app.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
 led\led_app.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
 led\led_app.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
-led\led_app.o: ..\MyApp\system.h
-led\led_app.o: ..\MyApp\bsp_system.h
-led\led_app.o: ..\MyApp\scheduler.h
-led\led_app.o: ..\MyApp\led_app.h
+led\led_app.o: ..\App\scheduler.h
+led\led_app.o: ..\App\bsp_system.h
+led\led_app.o: ..\App\led_app.h
