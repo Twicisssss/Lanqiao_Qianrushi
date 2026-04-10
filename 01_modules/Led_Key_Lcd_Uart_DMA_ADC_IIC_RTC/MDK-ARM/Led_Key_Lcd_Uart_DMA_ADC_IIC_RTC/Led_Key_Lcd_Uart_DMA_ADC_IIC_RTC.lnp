@@ -36,7 +36,6 @@
 "led_key_lcd_uart_dma_adc_iic_rtc\lcd_app.o"
 "led_key_lcd_uart_dma_adc_iic_rtc\led_app.o"
 "led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o"
-"led_key_lcd_uart_dma_adc_iic_rtc\system.o"
 "led_key_lcd_uart_dma_adc_iic_rtc\uart_app.o"
 "led_key_lcd_uart_dma_adc_iic_rtc\rtc_app.o"
 --library_type=microlib --strict --scatter "Led_Key_Lcd_Uart_DMA_ADC_IIC_RTC\Led_Key_Lcd_Uart_DMA_ADC_IIC_RTC.sct"

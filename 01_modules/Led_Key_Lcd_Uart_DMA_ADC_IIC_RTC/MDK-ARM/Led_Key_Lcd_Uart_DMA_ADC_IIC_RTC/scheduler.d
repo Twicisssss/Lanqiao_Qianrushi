@@ -40,10 +40,9 @@ led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ../Drivers/STM32G4xx_HAL_Driver/In
 led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ../Core/Inc/usart.h
 led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ../Core/Inc/adc.h
 led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ../Core/Inc/rtc.h
-led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ..\App\system.h
-led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ..\App\bsp_system.h
 led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ..\App\scheduler.h
 led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ..\App\led_app.h
+led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ..\App\bsp_system.h
 led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ..\App\key_app.h
 led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: ..\App\lcd_app.h
 led_key_lcd_uart_dma_adc_iic_rtc\scheduler.o: D:\Software\DevTools\01_Keilv5\ARM\ARMCC\Bin\..\include\stdarg.h
