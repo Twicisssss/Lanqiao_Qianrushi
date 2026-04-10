@@ -27,7 +27,6 @@
 "led_key_lcd_uart\lcd_app.o"
 "led_key_lcd_uart\led_app.o"
 "led_key_lcd_uart\scheduler.o"
-"led_key_lcd_uart\system.o"
 "led_key_lcd_uart\uart_app.o"
 --library_type=microlib --strict --scatter "Led_Key_Lcd_Uart\Led_Key_Lcd_Uart.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols

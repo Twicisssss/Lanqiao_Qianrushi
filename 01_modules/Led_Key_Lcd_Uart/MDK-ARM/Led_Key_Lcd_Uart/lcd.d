@@ -1,5 +1,5 @@
-led_key_lcd_uart\lcd.o: ..\MyApp\lcd.c
-led_key_lcd_uart\lcd.o: ..\MyApp\lcd.h
+led_key_lcd_uart\lcd.o: ..\App\lcd.c
+led_key_lcd_uart\lcd.o: ..\App\lcd.h
 led_key_lcd_uart\lcd.o: ../Core/Inc/main.h
 led_key_lcd_uart\lcd.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h
 led_key_lcd_uart\lcd.o: ../Core/Inc/stm32g4xx_hal_conf.h
@@ -31,4 +31,4 @@ led_key_lcd_uart\lcd.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
 led_key_lcd_uart\lcd.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
 led_key_lcd_uart\lcd.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
 led_key_lcd_uart\lcd.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
-led_key_lcd_uart\lcd.o: ..\MyApp\fonts.h
+led_key_lcd_uart\lcd.o: ..\App\fonts.h

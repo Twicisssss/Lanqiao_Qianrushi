@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32G431xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;../MyApp</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;..\App</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -721,87 +721,42 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>MyApp</GroupName>
+          <GroupName>App</GroupName>
           <Files>
-            <File>
-              <FileName>bsp_system.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\bsp_system.h</FilePath>
-            </File>
-            <File>
-              <FileName>fonts.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\fonts.h</FilePath>
-            </File>
             <File>
               <FileName>key_app.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\MyApp\key_app.c</FilePath>
-            </File>
-            <File>
-              <FileName>key_app.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\key_app.h</FilePath>
+              <FilePath>..\App\key_app.c</FilePath>
             </File>
             <File>
               <FileName>lcd.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\MyApp\lcd.c</FilePath>
-            </File>
-            <File>
-              <FileName>lcd.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\lcd.h</FilePath>
+              <FilePath>..\App\lcd.c</FilePath>
             </File>
             <File>
               <FileName>lcd_app.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\MyApp\lcd_app.c</FilePath>
-            </File>
-            <File>
-              <FileName>lcd_app.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\lcd_app.h</FilePath>
+              <FilePath>..\App\lcd_app.c</FilePath>
             </File>
             <File>
               <FileName>led_app.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\MyApp\led_app.c</FilePath>
-            </File>
-            <File>
-              <FileName>led_app.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\led_app.h</FilePath>
+              <FilePath>..\App\led_app.c</FilePath>
             </File>
             <File>
               <FileName>scheduler.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\MyApp\scheduler.c</FilePath>
-            </File>
-            <File>
-              <FileName>scheduler.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\scheduler.h</FilePath>
-            </File>
-            <File>
-              <FileName>system.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\MyApp\system.c</FilePath>
-            </File>
-            <File>
-              <FileName>system.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MyApp\system.h</FilePath>
+              <FilePath>..\App\scheduler.c</FilePath>
             </File>
             <File>
               <FileName>uart_app.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\MyApp\uart_app.c</FilePath>
+              <FilePath>..\App\uart_app.c</FilePath>
             </File>
             <File>
-              <FileName>uart_app.h</FileName>
+              <FileName>bsp_system.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\MyApp\uart_app.h</FilePath>
+              <FilePath>..\App\bsp_system.h</FilePath>
             </File>
           </Files>
         </Group>
