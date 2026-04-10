@@ -26,8 +26,6 @@ typedef struct __FILE FILE;
 
 uint8_t uart_rx_buf[128]={0};
 uint8_t uart_rx_dma_buf[128]={0};
-uint16_t uart_rx_index=0;
-uint32_t uart_rx_ticks=0;
 
 /* USER CODE END 0 */
 
@@ -125,7 +123,7 @@ void HAL_UART_MspInit(UART_HandleTypeDef* uartHandle)
     hdma_usart1_rx.Init.PeriphDataAlignment = DMA_PDATAALIGN_BYTE;
     hdma_usart1_rx.Init.MemDataAlignment = DMA_MDATAALIGN_BYTE;
     hdma_usart1_rx.Init.Mode = DMA_NORMAL;
-    hdma_usart1_rx.Init.Priority = DMA_PRIORITY_MEDIUM;
+    hdma_usart1_rx.Init.Priority = DMA_PRIORITY_HIGH;
     if (HAL_DMA_Init(&hdma_usart1_rx) != HAL_OK)
     {
       Error_Handler();
