@@ -29,9 +29,8 @@ led_key\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.
 led_key\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
 led_key\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
 led_key\main.o: ../Core/Inc/gpio.h
-led_key\main.o: ../MyApp/bsp_system.h
-led_key\main.o: ../MyApp/system.h
-led_key\main.o: ../MyApp/bsp_system.h
-led_key\main.o: ../MyApp/scheduler.h
-led_key\main.o: ../MyApp/led_app.h
-led_key\main.o: ../MyApp/key_app.h
+led_key\main.o: ..\App\bsp_system.h
+led_key\main.o: ..\App\scheduler.h
+led_key\main.o: ..\App\bsp_system.h
+led_key\main.o: ..\App\led_app.h
+led_key\main.o: ..\App\key_app.h

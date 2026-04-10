@@ -18,10 +18,9 @@
 "led_key\stm32g4xx_hal_pwr.o"
 "led_key\stm32g4xx_hal_cortex.o"
 "led_key\system_stm32g4xx.o"
+"led_key\key_app.o"
 "led_key\led_app.o"
 "led_key\scheduler.o"
-"led_key\system.o"
-"led_key\key_app.o"
 --library_type=microlib --strict --scatter "Led_Key\Led_Key.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
