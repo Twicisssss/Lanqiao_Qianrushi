@@ -53,9 +53,7 @@ void tim_ic_task(void)
     }
     tim_ic_PB4_temp/=64;
     tim_ic_PA15_temp/=64;
-//    tim_ic_PB4_val = (int)((float)(1000.0f*1000.0f)/(float)tim_ic_PB4_temp);
-//    tim_ic_PA15_val = (int)((float)(1000.0f*1000.0f)/(float)tim_ic_PA15_temp);
-    tim_ic_PB4_val = tim_ic_PB4_temp ? (uint32_t)(1000000.0f/(float)tim_ic_PB4_temp) : 0;
-    tim_ic_PA15_val = tim_ic_PA15_temp ? (uint32_t)(1000000.0f/(float)tim_ic_PA15_temp) : 0;
+    tim_ic_PB4_val = (int)((float)(1000.0f*1000.0f)/(float)tim_ic_PB4_temp);
+    tim_ic_PA15_val = (int)((float)(1000.0f*1000.0f)/(float)tim_ic_PA15_temp);
 }
 
