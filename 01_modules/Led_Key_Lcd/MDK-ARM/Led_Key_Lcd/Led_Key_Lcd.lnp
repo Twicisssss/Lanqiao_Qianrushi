@@ -19,11 +19,10 @@
 "led_key_lcd\stm32g4xx_hal_cortex.o"
 "led_key_lcd\system_stm32g4xx.o"
 "led_key_lcd\key_app.o"
-"led_key_lcd\led_app.o"
-"led_key_lcd\scheduler.o"
-"led_key_lcd\system.o"
 "led_key_lcd\lcd.o"
 "led_key_lcd\lcd_app.o"
+"led_key_lcd\led_app.o"
+"led_key_lcd\scheduler.o"
 --library_type=microlib --strict --scatter "Led_Key_Lcd\Led_Key_Lcd.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
