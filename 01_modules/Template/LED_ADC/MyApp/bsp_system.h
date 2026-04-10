@@ -12,7 +12,8 @@ extern uint8_t led_buf[8];
 #include "key_app.h"
 #include "lcd_app.h"
 #include "uart_app.h"
-
+#include "i2c_hal.h"
+#include "rtc_app.h"
 
 #endif
 
