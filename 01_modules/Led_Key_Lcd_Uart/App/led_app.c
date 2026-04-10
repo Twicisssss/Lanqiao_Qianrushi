@@ -8,7 +8,7 @@ void led_disp(uint8_t *uc_led)
     uint8_t temp_old = 0xff;
     
     for(uint8_t i=0;i<8;i++)
-        temp_now |= (uc_led[i] << (7-i));
+        temp_now |= (uc_led[i] << i);
     
     if(temp_now != temp_old)
     {
