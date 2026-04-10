@@ -1,5 +1,29 @@
-本备赛资料代码框架均为调度器框架，调度器代码：scheduler.c、scheduler.h
+代码框架均为调度器框架，调度器代码：scheduler.c、scheduler.h
 00官方资料包    官网链接：https://dasai.lanqiao.cn/notices/1096/
 01_modules      模块代码
 02_provincial   省赛代码
 03_national     国赛代码
+
+01_modules——模块代码的一些注意事项
+lcd模块的void lcd_sprintf(uint8_t Line,char *format,...)中，第四行是【vsprintf()】函数，不是【vasprintf()】函数，不要搞混了。
+
+需要记住的API：
+KEY模块：
+    HAL_GPIO_ReadPin(GPIOX,GPIO_PIN_X) == GPIO_PIN_RESET/GPIO_PIN_SET【HAL库】
+LCD模块：
+    va_list arg                 【stdarg.h】
+    va_start(arg,format)        【stdarg.h】
+    vsprintf(String,format,arg) 【stdio.h】
+    va_end(arg)                 【stdarg.h】
+UART模块：
+    HAL_UARTEx_ReceiveToIdle_DMA(&huart1,uart_rx_dma_buf,sizeof(uart_rx_dma_buf))   【HAL库】
+    __HAL_DMA_DISABLE_IT(&hdma_usart1_rx,DMA_IT_HT)                                 【HAL库】
+    typedef struct __FILE FILE                                                      【stdio.h】
+    int fputc(int ch,FILE *str)                                                     【stdio.h】
+    HAL_UART_Transmit(&huart1,(uint8_t *)&ch,1,10)                                  【HAL库】
+    memset(uart_rx_dma_buf,0,sizeof(uart_rx_dma_buf))                               【string.h】
+
+
+
+
+
