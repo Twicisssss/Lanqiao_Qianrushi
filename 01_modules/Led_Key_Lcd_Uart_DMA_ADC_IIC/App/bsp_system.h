@@ -9,7 +9,6 @@ extern uint16_t uart_rx_index;
 extern uint32_t uart_rx_ticks;
 #include "adc.h"
 
-#include "system.h"
 #include "scheduler.h"
 
 #include "led_app.h"

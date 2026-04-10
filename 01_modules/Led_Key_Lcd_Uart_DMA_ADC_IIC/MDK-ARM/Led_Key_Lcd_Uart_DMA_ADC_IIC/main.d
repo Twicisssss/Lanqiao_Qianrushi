@@ -38,9 +38,8 @@ led_key_lcd_uart_dma_adc_iic\main.o: ../Core/Inc/dma.h
 led_key_lcd_uart_dma_adc_iic\main.o: ../Core/Inc/usart.h
 led_key_lcd_uart_dma_adc_iic\main.o: ../Core/Inc/gpio.h
 led_key_lcd_uart_dma_adc_iic\main.o: ../App/bsp_system.h
-led_key_lcd_uart_dma_adc_iic\main.o: ../App/system.h
-led_key_lcd_uart_dma_adc_iic\main.o: ../App/bsp_system.h
 led_key_lcd_uart_dma_adc_iic\main.o: ../App/scheduler.h
+led_key_lcd_uart_dma_adc_iic\main.o: ../App/bsp_system.h
 led_key_lcd_uart_dma_adc_iic\main.o: ../App/led_app.h
 led_key_lcd_uart_dma_adc_iic\main.o: ../App/key_app.h
 led_key_lcd_uart_dma_adc_iic\main.o: ../App/lcd_app.h

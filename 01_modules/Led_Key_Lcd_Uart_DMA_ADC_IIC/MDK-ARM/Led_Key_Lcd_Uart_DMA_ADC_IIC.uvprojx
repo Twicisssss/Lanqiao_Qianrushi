@@ -983,11 +983,6 @@
               <FilePath>..\App\scheduler.c</FilePath>
             </File>
             <File>
-              <FileName>system.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\App\system.c</FilePath>
-            </File>
-            <File>
               <FileName>uart_app.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\App\uart_app.c</FilePath>

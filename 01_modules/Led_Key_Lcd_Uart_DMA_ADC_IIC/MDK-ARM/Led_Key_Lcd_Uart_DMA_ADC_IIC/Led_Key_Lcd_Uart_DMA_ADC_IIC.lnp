@@ -33,7 +33,6 @@
 "led_key_lcd_uart_dma_adc_iic\lcd_app.o"
 "led_key_lcd_uart_dma_adc_iic\led_app.o"
 "led_key_lcd_uart_dma_adc_iic\scheduler.o"
-"led_key_lcd_uart_dma_adc_iic\system.o"
 "led_key_lcd_uart_dma_adc_iic\uart_app.o"
 --library_type=microlib --strict --scatter "Led_Key_Lcd_Uart_DMA_ADC_IIC\Led_Key_Lcd_Uart_DMA_ADC_IIC.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
