@@ -8,14 +8,14 @@ void led_disp(uint8_t *uc_led)
     uint8_t temp_old = 0xff;
     
     for(uint8_t i=0;i<8;i++)
-        temp_now |= (led_buf[i] << (7-i));
+        temp_now |= (led_buf[i] << i);
     
     if(temp_now != temp_old)
     {
         GPIOC->ODR &= 0x00ff;
         GPIOC->ODR |= ~(temp_now<<8);
-        GPIOD->BSRR |= 0x01<<2; //置位 GPIOD 的第 2 位
-        GPIOD->BRR |= 0x01<<2;  //复位 GPIOD 的第 2 位
+        GPIOD->BSRR |= 0x01<<2; //锟斤拷位 GPIOD 锟侥碉拷 2 位
+        GPIOD->BRR |= 0x01<<2;  //锟斤拷位 GPIOD 锟侥碉拷 2 位
         temp_old = temp_now;
     }
 }
